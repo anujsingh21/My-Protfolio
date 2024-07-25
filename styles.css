@@ -10,13 +10,13 @@
         background: linear-gradient(45deg, #333333, #555555);
         color: #fff;
         text-align: center;
-        padding: 40px 0;
+        padding: 20px 0;
       }
 
       header img {
-        max-width: 150px;
+        max-width: 250px;
         border-radius: 50%;
-        margin-bottom: 10px;
+        margin-bottom: 20px;
       }
 
       header h1 {
@@ -25,7 +25,7 @@
 
       nav {
         text-align: center;
-        padding: 10px;
+        padding: 25px;
       }
 
       nav a {
@@ -53,7 +53,7 @@
 
       .portfolio-item {
         margin: 20px 0;
-        padding: 30px;
+        padding: 50px;
         border: 5px solid #ddd;
         background-color: #f9f9f9;
         text-align: center;
@@ -102,7 +102,6 @@
         margin-top: 20px;
         text-align: center;
       }
-      #contact,
       #skills,
       #certificates,
       #achievements,
@@ -110,25 +109,11 @@
         padding: 20px;
         background-color: #fff;
         box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
-        border: 3px solid #ddd;
+        border: 4px solid #ddd;
         border-radius: 5px;
         margin-top: 20px;
       }
-
-
-      .download-button {
-        display: inline-block;
-        padding: 10px 20px;
-        background-color: #333;
-        color: #fff;
-        text-decoration: none;
-        border-radius: 5px;
-        margin-top: 10px;
-      }
-
-      .download-button:hover {
-        background-color: #555;
-      }
+ 
 
       footer {
         background-color: #333333;
@@ -152,7 +137,7 @@
       }
 
       #certificates a:hover {
-        color: #ff9900;
+        color: #3423a1;
       }
       #coding-profiles{
        padding: 20px;
@@ -162,3 +147,46 @@
         border-radius: 5px;
         margin-top: 20px;
       }
+      
+
+
+
+      #contact {
+        padding: 20px;
+    }
+    
+    .contact-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .social-media {
+        display: flex;
+        gap: 10px;
+    }
+    
+    .social-media a {
+        text-decoration: none;
+        color: #000; /* Change this to your preferred color */
+    }
+    
+    .social-media a i {
+        margin-right: 5px;
+        font-size: 1.2em; /* Adjust the size of the icons */
+    }
+    
+    .contact-info p {
+        margin: 0;
+        color: #000; /* Change this to your preferred color */
+    }
+    
+    .contact-info a {
+        text-decoration: none;
+        color: #000; /* Change this to your preferred color */
+    }
+    
+    .contact-info a:hover {
+        color: #0073b1; /* Change this to your preferred hover color */
+    }
